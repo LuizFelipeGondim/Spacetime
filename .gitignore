@@ -75,3 +75,5 @@ web/next-env.d.ts
 server/uploads/*
 
 !server/uploads/.gitkeep
+
+server/prisma/dev.db
