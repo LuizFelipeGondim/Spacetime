@@ -1,6 +1,6 @@
 export function Copyright() {
   return (
-    <div className="text-sm leading-relaxed text-gray-200">
+    <div className="text-center text-sm leading-relaxed text-gray-200">
       Feito com 💜 no NLW da{' '}
       <a
         target="_blank"
