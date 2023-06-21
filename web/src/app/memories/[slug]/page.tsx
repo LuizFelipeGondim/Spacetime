@@ -36,7 +36,7 @@ export default async function Memory() {
       Authorization: `Bearer ${token}`,
     },
   })
-  console.log(response.data)
+
   const memory: MemoryParams = response.data
 
   return (
