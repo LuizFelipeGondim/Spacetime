@@ -29,6 +29,7 @@ export function NewMemoryForm() {
     }
 
     const token = Cookie.get('token')
+    console.log(token)
 
     await api.post(
       '/memories',
